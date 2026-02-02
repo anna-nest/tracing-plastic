@@ -518,21 +518,6 @@ width: 100%;
   justify-content: center;
 }
 
-/* .final-cta {
-  min-height: 100vh;     
-  padding-top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.final-content {
-  text-align: center;  
-  max-width: 1000px;
-  padding: 4rem 2rem;
-} */
 
 /* Fix final section spacing */
 .final-cta {
@@ -552,7 +537,6 @@ width: 100%;
 .final-cta .content-centered > p:first-child {
   margin-top: 0 !important;  /* Override inline style */
 }
-
 
 
 /* Data source at bottom with natural gap - NO BORDER */
@@ -967,12 +951,12 @@ width: 100%;
 
   #step-18 .data-source {
     margin-top: 1rem;
-     margin-bottom: 2rem;
+     margin-bottom: 1rem;
     font-size: 0.75rem;
   }
-    .final-cta h2 {
-    margin-top: 1.5rem;
-    }
+.final-cta .emphasis {
+  margin-top: 1.5rem;
+}
 
   /* override global mobile .step height just for the final section */
   .step.final-cta {
