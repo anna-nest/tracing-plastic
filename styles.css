@@ -538,6 +538,9 @@ width: 100%;
   margin-top: 0 !important;  /* Override inline style */
 }
 
+.final-cta .emphasis {
+  margin-top: 1.5rem;
+}
 
 /* Data source at bottom with natural gap - NO BORDER */
 .data-source {
@@ -954,9 +957,7 @@ width: 100%;
      margin-bottom: 1rem;
     font-size: 0.75rem;
   }
-.final-cta .emphasis {
-  margin-top: 1.5rem;
-}
+
 
   /* override global mobile .step height just for the final section */
   .step.final-cta {
